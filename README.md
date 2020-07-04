@@ -2,6 +2,9 @@
 
 Linear Regression Algorithm to predict grades of students based on 30 characteristics. 
 
+# Dependencies
+python 3.7, numpy, pandas, sklearn, and matplotlib. 
+
 # Data Source
 https://archive.ics.uci.edu/ml/datasets/Student+Performance
 
