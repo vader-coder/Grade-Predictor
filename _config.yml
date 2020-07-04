@@ -1,0 +1,5 @@
+theme: jekyll-theme-minimal
+title: "Grade Predictor"
+baseurl: "vader-coder.github.io/Grade-Predictor"
+plugins:
+  - jekyll-gzip
