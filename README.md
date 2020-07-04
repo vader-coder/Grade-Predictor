@@ -1,13 +1,16 @@
 # Grade-Predictor
 
 build.py creates a linear regression model that predicts grades of students based on the numerical characteristics from the student-mat.csv dataset. 
-The model is saved to topModel.pickle
+build.py then saves this model to topModel.pickle .
 
 # Dependencies
 python 3.7, numpy, pandas, sklearn, and matplotlib. 
 
 # Data Source
 https://archive.ics.uci.edu/ml/datasets/Student+Performance
+
+# Source Code
+[Click Here](https://github.com/vader-coder/Grade-Predictor)
 
 # Citation Request
 Please include this citation if you plan to use this database:
