@@ -7,7 +7,7 @@ build.py then saves this model to topModel.pickle .
 python 3.7, numpy, pandas, sklearn, and matplotlib. 
 
 ## Data Source
-https://archive.ics.uci.edu/ml/datasets/Student+Performance
+[https://archive.ics.uci.edu/ml/datasets/Student+Performance](https://archive.ics.uci.edu/ml/datasets/Student+Performance)
 
 ## Source Code
 [Click Here](https://github.com/vader-coder/Grade-Predictor)
