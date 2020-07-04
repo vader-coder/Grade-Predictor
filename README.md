@@ -1,6 +1,10 @@
 # Grade-Predictor
 
-Linear Regression Algorithm to predict grades of students based on 30 characteristics. 
+build.py creates a linear regression model that predicts grades of students based on the numerical characteristics from the student-mat.csv dataset. 
+The model is saved to topModel.pickle
+
+# Dependencies
+python 3.7, numpy, pandas, sklearn, and matplotlib. 
 
 # Data Source
 https://archive.ics.uci.edu/ml/datasets/Student+Performance
