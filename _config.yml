@@ -1,5 +1,5 @@
 theme: jekyll-theme-minimal
 title: "Grade Predictor"
-baseurl: "vader-coder.github.io/Grade-Predictor"
+baseurl: "vader-coder.github.io"
 plugins:
   - jekyll-gzip
