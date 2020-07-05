@@ -1,13 +1,7 @@
-#Import Relevant Libraries
-import numpy
 import pandas
-from sklearn import linear_model
-import sklearn
-from sklearn.utils import shuffle
-import matplotlib.pyplot as plt
-from matplotlib import style
-import pickle
-import time as t
+import numpy
+
+#eventually we will make this put the numerical data in a .csv file by itself so we can load it.
 
 def split (x, y, defaultTestSize):
     return sklearn.model_selection.train_test_split(x, y, test_size=defaultTestSize)
@@ -24,16 +18,9 @@ def remStrArr (data):
     return data
 
 start = t.monotonic()
-target = "G3"
-model = pickle.load(open("topModel.pickle", "rb"))
-
 path = "student-mat.csv"
 data = pandas.read_csv(path, sep=";")
 
 labels = numpy.array(data[target])#convert object to array
 features = remStrArr(numpy.array(data.drop([target], 1)))
-featuresTrain, featuresTest, labelsTrain, labelsTest = split(features, labels, 0.1)
 
-predictions = model.predict(featuresTest)
-print(predictions)
-print(str(t.monotonic() - start) + " seconds")
